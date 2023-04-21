@@ -59,6 +59,7 @@ public class SearchResult {
             Thread.sleep(2000);
             Actions action = new Actions(driver);
 
+            // Clicking on "ESC" key closes the size chart modal
             action.sendKeys(Keys.ESCAPE);
             action.perform();
             Thread.sleep(2000);

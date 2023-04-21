@@ -2,7 +2,7 @@ package QKART_SANITY_LOGIN.Module1;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.xml.xpath.XPath;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -29,7 +29,6 @@ public class Home {
             WebElement logout_button = driver.findElement(By.className("MuiButton-text"));
             logout_button.click();
 
-            // SLEEP_STMT_10: Wait for Logout to complete
             // Wait for Logout to Complete
             Thread.sleep(3000);
 
@@ -47,17 +46,12 @@ public class Home {
         try {
             // TODO: CRIO_TASK_MODULE_TEST_AUTOMATION - TEST CASE 03: MILESTONE 1
             // Clear the contents of the search box and Enter the product name in the search
-            //WebDriverWait wait=new WebDriverWait(driver, 05);
             driver.findElement(By.xpath(
                     "//div[@class='MuiFormControl-root MuiTextField-root search-desktop css-i44wyl']//input"))
                     .clear();
-                    
             driver.findElement(By.xpath(
                     "//div[@class='MuiFormControl-root MuiTextField-root search-desktop css-i44wyl']//input"))
                     .sendKeys(product);
-    
-                   // wait.until(ExpectedConditions.or(ExpectedConditions.textToBePresentInElementLocated(By.className("css-yg30ev6"), product),
-                    //ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div/div[3]/div[1]/div[2]/div/h4"))));
             Thread.sleep(3000);
             return true;
         } catch (Exception e) {
@@ -107,9 +101,10 @@ public class Home {
      */
     public Boolean addProductToCart(String productName) {
         try {
+            // TODO: CRIO_TASK_MODULE_TEST_AUTOMATION - TEST CASE 05: MILESTONE 4
             /*
-             * Iterate through each product on the page to find the WebElement corresponding
-             * to the matching productName
+             * Iterate through each product on the page to find the WebElement corresponding to the
+             * matching productName
              * 
              * Click on the "ADD TO CART" button for that element
              * 
@@ -220,6 +215,7 @@ public class Home {
             return false;
         }
     }
+
 
     /*
      * Return Boolean denoting if the cart contains items as expected
