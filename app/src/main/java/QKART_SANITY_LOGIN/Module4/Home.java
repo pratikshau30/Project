@@ -54,7 +54,7 @@ public class Home {
 
             WebDriverWait wait = new WebDriverWait(driver,30);
             wait.until(ExpectedConditions.or(ExpectedConditions.textToBePresentInElementLocated(By.className("css-yg30ev6"), product),
-            ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"root\"]/div/div[3]/div[1]/div[2]/div/h4"))));
+            ExpectedConditions.presenceOfElementLocated(By.xpath("(//*[@name='search'])[1]"))));
             Thread.sleep(3000);
             return true;
         } catch (Exception e) {
@@ -90,7 +90,7 @@ public class Home {
         try {
             // Check the presence of "No products found" text in the web page. Assign status
             // = true if the element is *displayed* else set status = false
-            status = driver.findElementByXPath("//*[@id=\"root\"]/div/div/div[3]/div[1]/div[2]/div/h4").isDisplayed();
+            status = driver.findElementByXPath("//*[text()=' No products found ']").isDisplayed();
             return status;
         } catch (Exception e) {
             return status;
