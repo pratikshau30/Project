@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QKART_TESTNG.QKART_Tests" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-05-13T09:42:15" hostname="pratikshaughade3456" time="292.209">
+  <properties/>
+  <testcase name="TestCase01[0](adminn, abc@123)" classname="QKART_TESTNG.QKART_Tests" time="8.314"/>
+  <testcase name="TestCase02[0](testUser, abc@123)" classname="QKART_TESTNG.QKART_Tests" time="35.276"/>
+  <testcase name="TestCase03[0](YONEX)" classname="QKART_TESTNG.QKART_Tests" time="35.636"/>
+  <testcase name="TestCase04[0](Running Shoes)" classname="QKART_TESTNG.QKART_Tests" time="18.712"/>
+  <testcase name="TestCase05[0](YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3)" classname="QKART_TESTNG.QKART_Tests" time="23.091"/>
+  <testcase name="TestCase06[0](Xtend Smart Watch, Yarine Floor Lamp)" classname="QKART_TESTNG.QKART_Tests" time="27.784"/>
+  <testcase name="TestCase07[0](Stylecon 9 Seater RHS Sofa Set ;Xtend Smart Watch)" classname="QKART_TESTNG.QKART_Tests" time="22.393"/>
+  <testcase name="TestCase08[0](Stylecon 9 Seater RHS Sofa Set, 10)" classname="QKART_TESTNG.QKART_Tests" time="67.107"/>
+  <testcase name="TestCase10" classname="QKART_TESTNG.QKART_Tests" time="8.353"/>
+  <testcase name="TestCase09" classname="QKART_TESTNG.QKART_Tests" time="14.248"/>
+  <testcase name="TestCase11[0](crio user, criouser@gmail.com, Testing the contact us page)" classname="QKART_TESTNG.QKART_Tests" time="2.495"/>
+  <testcase name="TestCase12[0](YONEX Smash Badminton Racquet, Addr line 1  addr Line 2  addr line 3)" classname="QKART_TESTNG.QKART_Tests" time="22.854"/>
+  <system-out><![CDATA[New Test StartedTestCase01
+onSuccess method started
+New Test StartedTestCase02
+onSuccess method started
+New Test StartedTestCase03
+Error while searching for a product: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='MuiCardContent-root css-1qw96cp'][1]/p[contains(text(),'Gesundheit')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'pratikshaughade3456', ip: '192.168.16.62', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.MGeONW}, goog:chromeOptions: {debuggerAddress: localhost:42041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c1bfa707d945b65a8e59a9bde9a...}
+Session ID: c1bfa707d945b65a8e59a9bde9a15a44
+onSuccess method started
+New Test StartedTestCase04
+onSuccess method started
+New Test StartedTestCase05
+onSuccess method started
+New Test StartedTestCase06
+onSuccess method started
+New Test StartedTestCase07
+onSuccess method started
+New Test StartedTestCase08
+Exception while performing add to cart: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='MuiBox-root css-1gjj37g']/div[1][text()='Stylecon 9 Seater RHS Sofa Set'] (tried for 30 second(s) with 500 milliseconds interval)
+onSuccess method started
+New Test StartedTestCase10
+onSuccess method started
+New Test StartedTestCase09
+onSuccess method started
+New Test StartedTestCase11
+onSuccess method started
+New Test StartedTestCase12
+onSuccess method started
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

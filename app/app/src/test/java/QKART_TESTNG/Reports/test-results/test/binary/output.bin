@@ -1,0 +1,33 @@
+New Test StartedTestCase01
+onSuccess method started
+New Test StartedTestCase02
+onSuccess method started
+New Test StartedTestCase03
+ˆError while searching for a product: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='MuiCardContent-root css-1qw96cp'][1]/p[contains(text(),'Gesundheit')] (tried for 30 second(s) with 500 milliseconds interval)
+ZBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+™System info: host: 'pratikshaughade3456', ip: '192.168.16.62', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.18'
+8Driver info: org.openqa.selenium.remote.RemoteWebDriver
+¯Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.MGeONW}, goog:chromeOptions: {debuggerAddress: localhost:42041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c1bfa707d945b65a8e59a9bde9a...}
+-Session ID: c1bfa707d945b65a8e59a9bde9a15a44
+onSuccess method started
+New Test StartedTestCase04
+onSuccess method started
+New Test StartedTestCase05
+onSuccess method started
+New Test StartedTestCase06
+onSuccess method started
+New Test StartedTestCase07
+onSuccess method started
+	New Test StartedTestCase08
+	‡Exception while performing add to cart: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='MuiBox-root css-1gjj37g']/div[1][text()='Stylecon 9 Seater RHS Sofa Set'] (tried for 30 second(s) with 500 milliseconds interval)
+	onSuccess method started
+
+New Test StartedTestCase10
+
+onSuccess method started
+New Test StartedTestCase09
+onSuccess method started
+New Test StartedTestCase11
+onSuccess method started
+New Test StartedTestCase12
+onSuccess method started
